@@ -20,7 +20,7 @@ function playSound(sound){
 }
 
 document.querySelector(' .composer button').addEventListener('click',()=>{
-    document.body.removeEventListener('click')
+    whiledocument.body.removeEventListener('keyup')
     let song = document.querySelector('#input').value
     if(song != ''){
         let songArray = song.split('') //quando n coloca nada separa letra a letra
